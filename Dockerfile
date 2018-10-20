@@ -5,5 +5,5 @@ RUN apt-get update && \
     python-pip \
     xvfb \
     firefox-esr && \
-    pip install awsebcli && \
+    pip install awscli && \
     apt-get clean
